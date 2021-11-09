@@ -32,17 +32,20 @@ class _PantsPageState extends State<PantsPage> {
             children: [
 
               for(int i=0;i<pants.pantsnaja.length;i++)
-                Card(
-                  child: InkWell(
-                    onTap: () {
-                      _showMaterialDialog(pants.pantsnaja[i]);
-                    },
-                    child: Column(
-                      children: [
-                        Image.asset(pants.pantsnaja[i].images,height: 250.0,),
-                        Text(pants.pantsnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
-                        Text("฿ "+pants.pantsnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
-                      ],
+                Container(
+                  width: 300.0,
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        _showMaterialDialog(pants.pantsnaja[i]);
+                      },
+                      child: Column(
+                        children: [
+                          Image.asset(pants.pantsnaja[i].images,height: 250.0,),
+                          Text(pants.pantsnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
+                          Text("฿ "+pants.pantsnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
+                        ],
+                      ),
                     ),
                   ),
                 ),

@@ -54,17 +54,20 @@ class _HomePageState extends State<HomePage> {
                 //shirt
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.green,
-                    child: InkWell(
-                      onTap:() {
-                        Navigator.pushNamed(context, ShirtPage.routeName);
-                      },
-                      child: Column(
-                        children:  [
-                          Image.asset("assets/images/shirt/icon3.png",height: 100.0,),
-                          const Text("T-shirt",style: TextStyle(fontSize: 15.0),),
-                        ],
+                  child: Container(
+                    width: 200.0,
+                    child: Card(
+                      color: Colors.green,
+                      child: InkWell(
+                        onTap:() {
+                          Navigator.pushNamed(context, ShirtPage.routeName);
+                        },
+                        child: Column(
+                          children:  [
+                            Image.asset("assets/images/shirt/icon3.png",height: 100.0,),
+                            const Text("T-shirt",style: TextStyle(fontSize: 15.0),),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -73,17 +76,20 @@ class _HomePageState extends State<HomePage> {
                 //Pants
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.green,
-                    child: InkWell(
-                      onTap:() {
-                        Navigator.pushNamed(context, PantsPage.routeName);
-                      },
-                      child: Column(
-                        children:  [
-                          Image.asset("assets/images/pants/iconpants2.png",height: 100.0,),
-                          const Text("Pants",style: TextStyle(fontSize: 15.0),),
-                        ],
+                  child: Container(
+                    width: 200.0,
+                    child: Card(
+                      color: Colors.green,
+                      child: InkWell(
+                        onTap:() {
+                          Navigator.pushNamed(context, PantsPage.routeName);
+                        },
+                        child: Column(
+                          children:  [
+                            Image.asset("assets/images/pants/iconpants2.png",height: 100.0,),
+                            const Text("Pants",style: TextStyle(fontSize: 15.0),),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -92,17 +98,20 @@ class _HomePageState extends State<HomePage> {
                 //Shoes
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.green,
-                    child: InkWell(
-                      onTap:() {
-                        Navigator.pushNamed(context, ShoesPage.routeName);
-                      },
-                      child: Column(
-                        children:  [
-                          Image.asset("assets/images/shoes/iconshoes1.png",height: 100.0,),
-                          Text("Shoes",style: TextStyle(fontSize: 15.0),),
-                        ],
+                  child: Container(
+                    width: 200.0,
+                    child: Card(
+                      color: Colors.green,
+                      child: InkWell(
+                        onTap:() {
+                          Navigator.pushNamed(context, ShoesPage.routeName);
+                        },
+                        child: Column(
+                          children:  [
+                            Image.asset("assets/images/shoes/iconshoes1.png",height: 100.0,),
+                            Text("Shoes",style: TextStyle(fontSize: 15.0),),
+                          ],
+                        ),
                       ),
                     ),
                   ),
