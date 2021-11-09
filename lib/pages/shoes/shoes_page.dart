@@ -30,7 +30,7 @@ class _ShoesPageState extends State<ShoesPage> {
           children: [
             Wrap(
             children: [
-              Center(child: Text("รองเท้าที่รอคนสวมใส่",style: TextStyle(fontSize: 40.0,color: Colors.black),),),
+              const Center(child: Text("รองเท้าที่รอคนสวมใส่",style: TextStyle(fontSize: 40.0,color: Colors.black),),),
 
               for(int i=0;i<shoes.shoesnaja.length;i++)
                 Card(
