@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6d4dd814af7ba0d9e5cec0eec7ac21c4",
+  "assets/AssetManifest.json": "af606dff54534ee0dfdf343fa450cbe0",
 "assets/assets/images/background/background2.jpg": "4332220c78a983ece85a8952e2fdb02a",
 "assets/assets/images/background/background3.jpg": "65ee023f140786577af7af303d3b67a2",
 "assets/assets/images/background/backgroundprofile.jpg": "902a61e33503073ea7036c58e94529a2",
@@ -17,6 +17,8 @@ const RESOURCES = {
 "assets/assets/images/pants/iconpants2.png": "0073c7ecb6ec2405e9d4af3bf107c930",
 "assets/assets/images/pants/jeans1.png": "8860ec9dae0ea330455b26f8c8abea5b",
 "assets/assets/images/pants/pants1.png": "dd441c25aad8a1bf0a46db6b8bf60194",
+"assets/assets/images/pants/pants22.png": "6fdb255c7f6920f451860a8c2ef5b2bf",
+"assets/assets/images/pants/pants23.png": "597d81675947150efb52fe63b1993ba6",
 "assets/assets/images/pants/pantsline1.png": "60a1732626b2321af0cc41447bd8d466",
 "assets/assets/images/pants/pantsline2.png": "ce7cc135b500328ee0cf2fcec5e3148e",
 "assets/assets/images/pants/pantslongyellow1.png": "fa8cf55cfae7a9e366cb5e9e3d0f9219",
@@ -57,9 +59,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "f5ff3986d81d6288e936f89330848161",
-"/": "f5ff3986d81d6288e936f89330848161",
-"main.dart.js": "8ebb97f75ef409492a3d732c38b9f628",
+"index.html": "32e36a6fed611a4fa1efb8fc041fd9d0",
+"/": "32e36a6fed611a4fa1efb8fc041fd9d0",
+"main.dart.js": "a0bfc3340fe48e46cd23614fb9094660",
 "manifest.json": "1c5fee1ff5b8b02232631b00daf44a4c",
 "version.json": "9857a1c0797c6018ea74820a0a59ea7d"
 };
