@@ -23,6 +23,7 @@ class _CartPageState extends State<CartPage> {
         backgroundColor: Colors.black,
         title: Text("Cart"),
       ),
+
       body: Container(
         child: Column(
           children: [

@@ -19,6 +19,9 @@ class _PantsPageState extends State<PantsPage> {
         backgroundColor: Colors.pinkAccent,
         title: Text("Pants"),
       ),
+
+
+
       body: Container(
         decoration: const BoxDecoration(
           image: const DecorationImage(
