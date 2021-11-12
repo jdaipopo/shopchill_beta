@@ -29,27 +29,29 @@ class _ShirtPageState extends State<ShirtPage> {
         ),
         child: ListView(
           children:[
-            Wrap(
-            children: [
-              for(int i=0;i<shirt.shirtnaja.length;i++)
-              Container(
-                width: 300.0,
-                child: Card(
-                  child: InkWell(
-                    onTap: () {
-                      _showMaterialDialog(shirt.shirtnaja[i]);
-                    },
-                    child: Column(
-                      children: [
-                        Image.asset(shirt.shirtnaja[i].images,height: 250.0,),
-                        Text(shirt.shirtnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
-                        Text("฿ "+shirt.shirtnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
-                      ],
+            Center(
+              child: Wrap(
+              children: [
+                for(int i=0;i<shirt.shirtnaja.length;i++)
+                Container(
+                  width: 300.0,
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        _showMaterialDialog(shirt.shirtnaja[i]);
+                      },
+                      child: Column(
+                        children: [
+                          Image.asset(shirt.shirtnaja[i].images,height: 250.0,),
+                          Text(shirt.shirtnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
+                          Text("฿ "+shirt.shirtnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
+                        ],
+                      ),
                     ),
                   ),
                 ),
+              ],
               ),
-            ],
             ),
           ],
         ),

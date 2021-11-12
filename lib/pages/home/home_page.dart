@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     width: 200.0,
                     child: Card(
-                      color: Colors.green,
+                      color: Colors.white54,
                       child: InkWell(
                         onTap:() {
                           Navigator.pushNamed(context, ShirtPage.routeName);
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     width: 200.0,
                     child: Card(
-                      color: Colors.green,
+                      color: Colors.white54,
                       child: InkWell(
                         onTap:() {
                           Navigator.pushNamed(context, PantsPage.routeName);
@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     width: 200.0,
                     child: Card(
-                      color: Colors.green,
+                      color: Colors.white54,
                       child: InkWell(
                         onTap:() {
                           Navigator.pushNamed(context, ShoesPage.routeName);

@@ -40,6 +40,8 @@ class Pants {
     Product(images: "assets/images/pants/pantsline2.png", name: "กางเกงขายาว", color: "เขียว", size: "M-XL", price: "1499"),
     Product(images: "assets/images/pants/pantslongyellow1.png", name: "กางเกงขายาว", color: "เหลือง", size: "M-XL", price: "399"),
     Product(images: "assets/images/pants/shortpants1.png", name: "กางเกงขาสั้น", color: "ฟ้า", size: "M-XL", price: "99"),
+    Product(images: "assets/images/pants/pants22.png", name: "กางเกงขาสั้น", color: "ดำ", size: "M-XL", price: "99"),
+    Product(images: "assets/images/pants/pants23.png", name: "กางเกงขาสั้น", color: "น้ำเงิน", size: "M-XL", price: "99"),
   ];
 }
 class Shoes {

@@ -28,30 +28,33 @@ class _ShoesPageState extends State<ShoesPage> {
         ),
         child: ListView(
           children: [
-            Wrap(
-            children: [
-              const Center(child: Text("รองเท้าที่รอคนสวมใส่",style: TextStyle(fontSize: 40.0,color: Colors.black),),),
 
-              for(int i=0;i<shoes.shoesnaja.length;i++)
-                Container(
-                  width: 300.0,
-                  child: Card(
-                    child: InkWell(
-                      onTap: () {
-                        _showMaterialDialog(shoes.shoesnaja[i]);
-                      },
-                      child: Column(
-                        children: [
-                          Image.asset(shoes.shoesnaja[i].images,height: 250.0,),
-                          Text(shoes.shoesnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
-                          Text("฿ "+shoes.shoesnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
-                        ],
+            Center(
+              child: Wrap(
+              children: [
+                const Center(child: Text("รองเท้าที่รอคนสวมใส่",style: TextStyle(fontSize: 40.0,color: Colors.black),),),
+
+                for(int i=0;i<shoes.shoesnaja.length;i++)
+                  Container(
+                    width: 300.0,
+                    child: Card(
+                      child: InkWell(
+                        onTap: () {
+                          _showMaterialDialog(shoes.shoesnaja[i]);
+                        },
+                        child: Column(
+                          children: [
+                            Image.asset(shoes.shoesnaja[i].images,height: 250.0,),
+                            Text(shoes.shoesnaja[i].name,style: TextStyle(fontSize: 20.0,color: Colors.black),),
+                            Text("฿ "+shoes.shoesnaja[i].price,style: TextStyle(fontSize: 20.0,color: Colors.red),),
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                ),
-            ],
+              ],
           ),
+            ),
         ],
         ),
       ),
